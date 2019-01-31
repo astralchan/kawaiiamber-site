@@ -26,23 +26,23 @@ a:hover {
 
 
 ::selection {
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(255, 0, 255);
 }
 
 ::-moz-selection {
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(255, 0, 255);
 }
 
 ::-o-selection {
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(255, 0, 255);
 }
 
 ::-ms-selection {
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(255, 0, 255);
 }
 
 ::-webkit-selection {
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(255, 0, 255);
 }
 
 
