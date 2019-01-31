@@ -9,3 +9,67 @@ h3 {
 p, math, h3 {
     color: white;
 }
+
+@font-face {
+    font-family: 'RobotoSlabRegular';
+    src: local('css/fonts/Roboto_Slab/RobotoSlab-Regular.tff')
+}
+
+a {
+    color: rgb(255, 0, 128);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 255, 127);
+}
+
+
+::selection {
+    background-color: rgb(255, 255, 0);
+}
+
+::-moz-selection {
+    background-color: rgb(255, 255, 0);
+}
+
+::-o-selection {
+    background-color: rgb(255, 255, 0);
+}
+
+::-ms-selection {
+    background-color: rgb(255, 255, 0);
+}
+
+::-webkit-selection {
+    background-color: rgb(255, 255, 0);
+}
+
+
+.section {
+    font-size: 245%;
+    text-align: left;
+    font-style: italic;
+
+    line-height: 110%;
+
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 0.2%;
+    padding-top: 0.2%;
+
+    margin-top: 0.2%;
+    margin-bottom: 0.3%;
+}
+
+.description {
+    font-size: 162%;
+    text-align: left;
+
+    line-height: 120%;
+
+    padding-left: 16%;
+    padding-right: 16%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
