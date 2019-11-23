@@ -1,0 +1,60 @@
+@font-face
+{
+    font-family: 'robotoSlab';
+    src:
+        local('Roboto Slab'),
+        local('RobotoSlab-Regular');
+}
+
+*
+{
+    font-family: robotoSlab;
+    color: rgb(255,255,255);
+    font-weight: 400;
+}
+
+::selection
+{
+    background-color: rgba(200, 100, 200, 0.3);
+}
+
+body
+{
+    background-color: rgb(40,40,40);
+    background-image: url('../images/deer.jpeg');
+    background-size: cover;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    text-align: center;
+}
+
+.name
+{
+    font-size: 4rem;
+    user-select: none;
+}
+
+button
+{
+    background-color: rgba(200, 100, 200, 128);
+    border: 0;
+    padding: 2rem 2rem 2rem 2rem;
+    font-size: 2.5rem;
+}
+button::-moz-focus-inner
+{
+    border: 0;
+}
+
+p
+{
+    padding: 0 0 0 2rem;
+}
+
+.HLB
+{
+    float: right;
+}
