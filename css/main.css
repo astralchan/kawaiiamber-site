@@ -58,3 +58,13 @@ p
 {
     float: right;
 }
+
+.hidden
+{
+    color: rgba(0,0,0,0);
+}
+.hidden::selection
+{
+    color: rgb(255,255,255);
+    background-color: rgba(200, 100, 200, 0.3);
+}
